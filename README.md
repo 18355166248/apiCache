@@ -1,29 +1,11 @@
-# apicache
+## api 接口数据缓存方案
 
-## Project setup
-```
-yarn install
-```
+1. 数据缓存
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+2. promise 缓存
 
-### Compiles and minifies for production
-```
-yarn build
-```
+3. 多 promise 缓存
 
-### Run your unit tests
-```
-yarn test:unit
-```
+4. 添加时间有关的缓存
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+5. 基于修饰器的方案 (基于方案 4)
