@@ -24,7 +24,6 @@
 import one from "./methodList/one";
 import two from "./methodList/two";
 import three from "./methodList/three";
-import four from "./methodList/four";
 
 export default {
   name: "ApiCache",
@@ -42,10 +41,6 @@ export default {
         {
           id: "three",
           name: "方法三"
-        },
-        {
-          id: "four",
-          name: "方法四"
         }
       ]
     };
@@ -58,8 +53,7 @@ export default {
   components: {
     one,
     two,
-    three,
-    four
+    three
   }
 };
 </script>

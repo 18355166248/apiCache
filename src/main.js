@@ -4,6 +4,7 @@ import router from './router';
 import store from './store';
 
 import '@/common/css/normalize.css';
+import '@/common/css/common.scss';
 import './mock/list1';
 
 Vue.config.productionTip = false;
